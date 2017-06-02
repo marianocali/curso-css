@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/************body ********************/
+
+body{
+	background-color: #dedede;
+	font-family: "Verdana";
+	width: 960px;
+	height:100%;	
+	margin: auto;
+	background-repeat-x: no-repeat;
+	background-position: 0% 0%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #ffc;
+	position: relative;
+}
+
+video { 
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	transition: 1s opacity;
+}
+
+
+/************ header **********************/
+#header{
+	width: 810px;
+	height: 120px;
+	font-size: 4em;
+	padding-left: 150px;
+}
+
+
+/********* nav  ************************/
+
+#menu{
+	height:60px;
+	width: 860px;
+	padding: 30px 0px 0px 100px;
+	background: rgba(255,255,255, 0.2);
+}
+
+#menu li{
+	background-color: blue;
+	margin: auto;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+#menu li{
+	background-color: #334455;
+	width: 150px;
+	height:40px;
+	list-style-type:none; 
+	float: left;
+	margin-left: 2px;
+	text-align: center;	
+	background-image: url("../img/k.png");
+}
+
+#menu a {
+	color: blue;
+	width: 150px;
+	height: 40px;
+	display: block;
+	padding-top: 0px;
+	margin: auto;
+	font-size: 2em
+}
+
+#menu a:hover {
+	color: #00f;
+	background-color: #fff;
+	background-image: url(../img/l.png);
+}
+
+
+
+ul li{
+	color: #557775;
+	margin: auto;
+}
+
+
+/*********** main **************/
+main{
+	width: 960px;
+	height: 950px;
+	position: relative;
+}
+
+
+article{
+	top: 40px;
+	height: 400px;
+	position: absolute;	
+	font-size: 2em;
+	padding: 30px;
+	background: rgba(255,255,255, 0.15);
+	width: 250px;
+	height: 250px;
+
+}
+
+article a{
+	display: block;
+} 
+
+article p a{
+	display: block;
+} 
+
+
+#uno a{
+	display: block;
+} 
+
+#uno{
+	left: 100px;
+}
+
+#dos{
+	left: 500px;
+}
+
+#tres{
+	top: 450px;
+	left: 100px;
+	
+}
+
+#cuatro{
+	top: 450px;
+	background: rgba(255,255,255, 0.1);
+	left: 500px;
+}
+
+
+
+/*********************** footer **************/
+
+#footer{	
+	width: 660px;
+	height: 40px;
+	padding: 20px 0px 20px 300px;
+	background: rgba(250,255,255, 0.2);
+	position: absolute;
+	bottom: 0px;
+	font-size: 1em;
+}
+

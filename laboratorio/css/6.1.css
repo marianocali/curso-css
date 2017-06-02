@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	width: 960px;
+	margin: auto;
+	background-color: #000;
+}
+
+h2{
+	color: #ff0034;
+	font-style: bold;
+	/*margin:auto; */
+	margin: 20px 0px 0px 20px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: 20px;
+    margin-right: auto;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+div {
+	
+	padding: 10px;
+	background-color: #ddd;
+	font-family: Ubuntu;
+	margin:auto;
+
+	/* hacer que automaticamente tenga scroll*/ 
+	width: 500px;	
+	min-height: 200px;
+	max-height: 350px;
+	overflow: auto;
+}
+
+
+.div1{
+	position: relative;
+	top: 10px;
+	
+}
+
+.div2{
+	position: relative;
+	top: 30px;	
+}
+
+div p{	
+	margin: 10px 10px 10px 0px;
+	padding: 10px 10px 0px 20px;
+}

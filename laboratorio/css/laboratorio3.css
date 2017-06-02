@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+div{
+	width: 100px;
+	height: 100px;
+	position: relative;	
+}
+
+.amarillo{
+	background-color: #FFCC00;
+}
+
+.naranja{
+	background-color: #FF3300;
+	left: 100px;
+}
+
+.rojo{
+	background-color: #cc0001;	
+	left: 200px;
+}
+
+.violeta{
+	background-color: #660066;
+	left: 300px;
+}

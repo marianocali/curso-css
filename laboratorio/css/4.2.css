@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+	/*border: 1px solid black;*/
+}
+
+h2{
+	color: red;
+}
+
+
+
+.lista1{
+	width: 910px;
+	margin: auto;
+	background-color: #90c300;
+	padding-left: 50px;
+}
+
+.lista1 li{
+	background-color: #90c3d4;
+	display: inline-block;	
+	width: 100px;
+	height: 40px;
+	margin: 10px 50px 10px 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	padding-top: 6px;
+}
+
+.linea1{
+	position: relative;
+	top: 20px;
+	border-width: 3px;
+	margin-left: 20px;
+}
+
+.linea2{
+	position: relative;
+	top: 60px;
+	border-width: 3px;
+	margin-left: 20px;
+}
+
+.linea3{
+	position: relative;
+	top: 60px;
+	border-width: 3px;
+	margin-left: 20px;
+}
+
+.linea4{
+	position: relative;
+	top: 60px;
+	border-width: 3px;
+	margin-left: 20px;
+}
+.lista2{
+	position: relative;
+	top: 50px;
+	width: 910px;
+	margin: auto;
+	background-color: #79AABA;
+	padding-left: 50px;
+}
+
+.lista2 li{
+	background-color: transparent;
+	display: inline-block;	
+	width: 100px;
+	height: 40px;
+	margin: 10px 50px 10px 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	padding-top: 6px;
+	background-image: url("../img/bgover.png");
+}
+
+
+.lista3{
+	position: relative;
+	top: 50px;
+	width: 960px;
+	padding-left: 0px;
+	margin-left: 200px;
+}
+
+.lista3 li{
+	background-color: transparent;
+	/*display: inline-block;	*/
+	width: 100px;
+	height: 40px;
+	margin: 10px 50px 10px 0px;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	padding-left: 30px;
+	background-image: url("../img/bullet.png");
+	background-repeat: no-repeat;
+	border-bottom-style: dotted;
+}
+
+.lista4{
+	position: relative;
+	top: 70px;
+	width: 960px;	
+	margin-left: 200px;
+}
+
+.lista4 li{
+	background-color: orange;
+	/*display: inline-block;	*/
+	width: 100px;
+	height: 24px;
+	margin: 10px 10px 10px 0px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.3em;	
+	border-left-style: solid;
+	border-left-width: 6px;
+	float: left;
+}
+
+.lista4 a {
+	text-decoration: none;
+	display: block;
+}
+.lista4 a:hover {
+	color: #00f;
+	background-color: #abc;
+	background-image: url("imgs/q.png");
+}

@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #CCC;
+}
+
+
+div{	
+	height: 100px;
+	width: 250px;
+}
+
+
+#rojo{
+	background-color: red;	
+}
+
+#naranja{
+	background-color: orange;
+}
+
+#amarillo{
+	background-color: yellow;
+}

@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: 0;
+}
+
+div{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+
+}
+
+#uno{
+	background-color: #e2725b;	
+}
+
+
+#dos{
+	background-color: blue;		
+	left: 100px;
+}
+
+
+#tres{
+	background-color: tomato;	
+	left: 200px;
+}
+
+
+#cuatro{
+	background-color: orange;	
+	left: 300px;
+}

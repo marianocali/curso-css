@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	padding: 0; 
+}
+
+body{
+	font-size: 2em;
+}
+
+.destacado{
+	color: red;
+	background: yellow;
+}
+
+.destacado{
+	font-weight: bold;
+	color: green;
+}
+

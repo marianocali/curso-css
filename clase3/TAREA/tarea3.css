@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/***************header *******************/
+header{
+	width: 860px;
+	height: 178px;
+	background-color: black;
+	font-size: 3em;
+	text-align: left;
+	color: tomato;
+	padding-top: 20px;
+	padding-left: 40px;
+	position: relative;
+	top: 10px;
+	text-transform: uppercase; 
+	background-image: url("img/banner.jpg");
+	border-bottom-style: solid;
+	border-bottom-color: #3d5249;
+	border-bottom-width: 2px;
+}
+
+/*********************body **************/
+body{
+	width: 960px;
+	margin: auto;
+	background-image: url("img/bg.jpeg");
+	font-family: arial;
+}
+
+h1{
+	text-align: left;
+	padding: 10px 0px 0px 40px;
+		
+}
+
+#nav{
+	width: 930px;
+	height: 35px;
+	color: #9a6600;
+	/*background-color: #FFa545;*/
+	/*background: rgba(252,234,187,1);*/
+	#DBDBDB
+	/*degrade*/
+	background: #DBDBDB;
+background: -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(0%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 100%);
+background: -o-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 100%);
+background: -ms-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 100%);
+background: linear-gradient(to bottom, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0 );
+
+
+	text-align: center;
+	padding-top: 25px;
+	position: relative;
+	left: -16px;
+	/*top: -10px;*/
+	z-index: -1;
+}
+
+main{
+	width: 900px;
+	height: 350px;
+	background-color: #dfdfdf;
+	position: relative;
+	top: -10px;
+}
+
+
+#article1{
+	width: 220px;
+}
+
+
+article{
+	width: 240px;
+	height: 270px;		
+	padding: 10px;
+	margin: 0px 30px 0px 16px;
+	background-color: #fff;
+	position: relative;
+	float: left;
+	font-size: 0.85em;
+}
+
+
+h2{
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	color: tomato;
+	font-size: 1.5em;
+}
+
+h3{
+	padding-top: 10px;
+	padding-bottom: 10px;	
+
+}
+
+/*********** footer ***************/
+
+#footer{
+	width: 880px;
+	height: 60px;
+	background-color: #333333;
+	color: white;	
+	padding-left: 50px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	position: relative;
+	left: -15px;
+	top: -30px;
+	z-index: -1;
+	border-bottom-style: ridge;
+	border-bottom-width: 2px;
+	border-bottom-color: #FF6600;
+	font-size: 0.8em;
+}

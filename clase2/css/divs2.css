@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#050;
+}
+#rojo
+{
+	background-color:#F03;
+	width:250px;
+	height:100px;
+	margin: 10px 30px;
+}
+#naranja
+{
+	background-color:#F90;
+	width:250px;
+	height:100px;
+}
+#amarillo
+{
+	background-color:#FF3;
+	width:250px;
+	height:100px;
+}

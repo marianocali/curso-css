@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/************body ********************/
+body{
+	background-color: #dedede;
+	font-family: "Verdana";
+	width: 960px;
+	margin: auto;
+	background-image: url("../img/maxresdefault.jpg");
+	background-repeat-x: no-repeat;
+	background-position: 0% 0%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/************ header **********************/
+#header{
+	width: 810px;
+	height: 120px;
+	font-size: 4em;
+	/*background-color: #ffa;*/
+
+	padding-left: 150px;
+}
+
+
+/********* nav  ************************/
+
+#menu{
+	height:60px;
+	width: 860px;
+	padding: 30px 0px 0px 100px;
+	/*background-color: #ffa;*/
+	background: rgba(255,255,255, 0.2);
+}
+
+#menu li{
+	background-color: blue;
+	margin: auto;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+#menu li{
+	background-color: #334455;
+	width: 150px;
+	height:40px;
+	list-style-type:none; 
+	float: left;
+	margin-left: 2px;
+	
+	text-align: center;	
+	background-image: url("../img/o.png");
+}
+
+#menu a {
+	color: blue;
+	width: 150px;
+	height: 40px;
+	display: block;
+	padding-top: 0px;
+	margin: auto;
+	font-size: 2em
+}
+
+#menu a:hover {
+	color: #00f;
+	background-color: #fff;
+	background-image: url(../img/p.png);
+	/*opacity: 0.5;*/
+}
+
+
+
+ul li{
+	color: #557775;
+	margin: auto;
+}
+
+
+/*********** main **************/
+main{
+	width: 960px;
+	height: 650px;
+	position: relative;
+	/*background-color: #999;*/
+	/*background-image: url("../img/maxresdefault.jpg");*/
+	
+}
+
+
+#izquierda, #derecha{
+	top: 40px;
+	/*height: 400px;*/
+	position: absolute;	
+}
+
+#izquierda{
+	padding: 30px;
+	width: 240px;
+	height: 340px;
+	background: rgba(255,255,255, 0.1);
+	/*background-color: #fff;*/
+	/*opacity: 0.4;*/
+	left: 150px;
+	font-size: 2em;
+	display: block;
+}
+
+
+#derecha{
+	width: 300px;
+	height: 400px;
+	left: 500px;
+	opacity: 0.8;
+	/*background-image: url(../img/mpla3.jpg);*/
+	/*content:url(../img/img3.jpg);*/
+}
+
+
+/*********************** footer **************/
+
+#footer{
+	width: 660px;
+	height: 50px;
+	background-color: #9a6600;	
+	padding: 20px 0px 0px 300px;
+}

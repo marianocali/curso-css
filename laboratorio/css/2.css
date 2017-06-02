@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 960px;
+	margin: auto;
+}
+
+header{
+	width: 960px;
+	height: 100px;
+	background-color: black;
+}
+
+nav{
+	width: 960px;
+	height: 50px;
+	background-color: #FF3366;
+}
+
+main{
+	width: 960px;
+	height: 600px;
+	background-color: #999999;
+}
+
+#footer{
+	width: 960px;
+	height: 30px;
+	background-color: #7A7A7A;	
+}

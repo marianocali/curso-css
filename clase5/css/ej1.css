@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0; 
+	outline: 1px solid red;
+}
+
+body{
+	font-size: 2em;
+}
+
+
+li:first-child{
+	color: red;
+}
+
+li:last-child{
+	color: red;
+}
+
+li:nth-child(3){
+	color: green;
+}
+
+li:nth-child(even){
+	color: blue;
+}
+
+
+#listamagica .destacado{
+	color: red;
+	background: yellow;
+}

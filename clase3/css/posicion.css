@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0;
+	border: 0;
+}
+
+div{
+	height: 100px;
+	width: 100px;
+	position: relative;
+
+}
+
+#div1{
+	background-color: #e2725b;
+
+}
+
+
+#div2{
+	background-color: blue;
+	/*top: 150px; */
+}
+
+
+#div3{
+	background-color: tomato;
+	top: -50px;
+	left: -50px;
+}
+
+
+#div4{
+	/*top: 450px; */
+	background-color: orange;
+	top: 50px;
+	left: 50px;
+
+}
+
+<p style="padding: 15px 0; background: -moz-linear-gradient(top, #c38b72, #71aac3); background: -webkit-linear-gradient(top, #c38b72, #71aac3); background: -o-linear-gradient(top, #c38b72, #71aac3); background: -ms-linear-gradient(top, #c38b72, #71aac3); background: linear-gradient(top, #c38b72, #71aac3); color: #000">#c38b72 gradiente lineal hasta complementaria #71aac3</p>

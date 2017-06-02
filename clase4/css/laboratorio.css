@@ -1,0 +1,123 @@
+@import url(footer.css);
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+body{
+	width: 960px;
+	margin: auto;
+}
+
+.header{
+	width: 860px;
+	height: 200px;
+	padding-left: 100px;
+	background-color: #7F7F7F; 
+}
+
+h1{
+	padding-top: 40px;	
+	font-family:  "Bitstream Vera Sans Mono",FreeSans, Arial;
+	font-weight: lighter;
+	font-size: 2.5em
+}
+
+.titulo2{	
+	color: #CC0000;
+	font-family:  "Bitstream Vera Sans Mono",FreeSans, Arial;
+	font-weight: lighter;
+	font-size: 2em;
+	padding-top: 10px;
+}
+
+h3{
+	font-weight: lighter;
+	font-style: italic;	
+	font-size: 1.5em;
+}
+
+nav{
+	/*width: 100%;*/
+	width: 960px;
+	height: 45px;
+	padding-top: 20px;
+	/*background-color: #BD290C;	*/
+	background-color: #C82F35;
+}
+
+.menuHorizontal{
+	padding-left: 180px;	
+
+}
+
+.menuHorizontal li{
+	float:left;  
+	padding-left: 10px;
+}
+
+a{
+	color: #000000;
+}
+
+a:link, a:visited{  
+	text-decoration:none;  
+} 
+
+
+main{
+	width: 960px;
+	height: 650px;	
+	background-color: #E5E5E5;	
+}
+
+article{
+	background-color: #E5E5E5;	
+	width: 600px;
+	height: 650px;
+	padding-left: 40px;
+	float:left; 
+}
+
+
+aside{	
+	width: 300px;
+	height: 600px;
+	padding: 10px;
+	background-color: #4D4D4D;
+	color: #DEDEDE;
+	float:left;  
+}
+
+.principal{
+	padding-top: 20px;
+}
+
+section p {	
+	padding-top: 15px;
+	padding-right: 40px;
+	/*font-size: 0.7em;*/
+}
+
+aside h2{
+	color: #A1723E;
+}
+
+aside p{
+	/*margin-left: 4px;*/
+	font-size: 0.9em;	
+}
+
+
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #A1723E;
+    
+}
+

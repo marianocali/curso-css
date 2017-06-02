@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:960px;
+    margin: auto;
+}
+
+#header{
+    height: 130px;
+    background-color: aquamarine;
+}
+
+#nav{
+    height: 60px;
+    background-color: antiquewhite;
+}
+
+main{
+    height: 450px;
+    background-color: coral;
+    position: relative;
+}
+
+ #div1, #div2{
+       height: 400px; 
+       position: absolute;
+       top: 25px;
+ }
+
+
+#div1{    
+    width: 700px;   
+    height: 350px; 
+    background-color: orange;
+    position: absolute;
+    left: 20px;
+}
+
+
+#div2{
+    width: 200px; 
+    height: 350px;   
+    background-color: #33cc99;
+    position: absolute;
+    left: 740px;
+}
+
+
+
+/*********** footer ****************************/
+
+#footer{
+    height: 90px;
+    background-color: aquamarine;
+}

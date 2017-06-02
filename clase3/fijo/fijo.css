@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{background-color:#161616;}
+
+#encabezado, #menu, #contenido, #pie{
+	width:850px;
+	margin:auto;
+	}
+
+#encabezado{
+	background-color:#6a7059; 
+	height:160px;
+	}
+
+#menu{
+	background-color:#fdeea7;
+	height:40px;
+}
+
+#redes{	
+	width: 64px;
+	height: 192px;
+	position: fixed;
+}
+
+#contenido{
+	background-color:#9bcc93;
+	height:900px;
+}
+
+#pie{
+	background-color:#6a7059; 
+	height:25px;
+	}
